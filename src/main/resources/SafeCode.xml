@@ -1,0 +1,11 @@
+<useStyles filename="nifty-default-styles.xml" />
+<useControls filename="nifty-default-controls.xml" />
+
+<screen id="Safe">
+    <layer childLayout="center">
+        <panel width="25%" height="25%" align="center" valign="center" childLayout="vertical" backgroundColor="#55a5" padding="10">
+            <control id = "input" name="textfield" />
+            
+        </panel>
+    </layer>
+</screen>

@@ -1,0 +1,93 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ca.ceci</groupId>
+	<artifactId>ics4u_loop_nelson_162</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ICS4U_Loop_Nelson</name>
+
+	<!-- Project batch created by T. Fuller and batch uploaded to GitHub scripts: 
+		gitlabRepoMaker gitlabRepoMakerBatch scripts are in gitlab repository -->
+	<properties>
+		<jme3_g>org.jmonkeyengine</jme3_g>
+		<jme3_v>3.3.2-stable</jme3_v>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-core</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-desktop</artifactId>
+			<version>${jme3_v}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-lwjgl3</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-bullet</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-bullet-native</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-effects</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-plugins</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>${jme3_g}</groupId>
+			<artifactId>jme3-blender</artifactId>
+			<version>${jme3_v}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.nifty-gui/nifty -->
+		<dependency>
+			<groupId>com.github.nifty-gui</groupId>
+			<artifactId>nifty</artifactId>
+			<version>1.4.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jmonkeyengine/jme3-niftygui -->
+		<dependency>
+			<groupId>org.jmonkeyengine</groupId>
+			<artifactId>jme3-niftygui</artifactId>
+			<version>3.4.0-alpha7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+
+
+	</dependencies>
+</project>
